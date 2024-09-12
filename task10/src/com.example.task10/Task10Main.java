@@ -12,7 +12,7 @@ public class Task10Main {
          */
     }
 
-    static int numMin(int[] arr) {
+    public static int numMin(int[] arr) {
         int indexMin = 0, minv = Integer.MAX_VALUE;
 
         for (int i = 0; i < arr.length; i++) {
